@@ -12,8 +12,8 @@ int main()
     float media = (N1 + N2) / 2;
 
     if (media >= 6) {
-    printf("Parabens, voce passou com a media %.2f!", media);
+	    printf("Parabens, voce passou com a media %.2f!", media);
     } else {
-    printf("Infelizmente voce nao passou :/ Sua media ficou em %.2f!", media);
+	    printf("Infelizmente voce nao passou :/ Sua media ficou em %.2f!", media);
     }
 }
