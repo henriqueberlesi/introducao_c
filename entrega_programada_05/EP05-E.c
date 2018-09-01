@@ -27,7 +27,7 @@ int main() {
     {
         printf("Digite o resultado do Inter:\n");
         scanf("%d", &inter_score);
-        printf("Digite o resultado do Gremio:\n");
+        printf("Digite o resultado do Grêmio:\n");
         scanf("%d", &gremio_score);
 
         switch (evaluate_winner(inter_score, gremio_score))
